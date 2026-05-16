@@ -877,6 +877,15 @@ footer {
   .gratuit-header { flex-direction: column; }
   .whatsapp-banner { flex-direction: column; text-align: center; }
 }
+ @media (max-width: 768px) {
+  section div[style*="gap: 4rem"] {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  section div[style*="gap: 4rem"] > div {
+    width: 100% !important;
+  }
+} 
 </style>
 </head>
 <body>
